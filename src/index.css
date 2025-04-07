@@ -1,0 +1,49 @@
+@import "materialize-css/dist/css/materialize.min.css";
+
+html, body {
+    font-family: "Roboto", system-ui;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at 0% 0%, #031679, #58aebd) !important;
+    background-repeat: no-repeat;
+}
+.hometext {
+    text-align: justify; /* Justify text horizontally */
+    line-height: 1.6; /* Make sure line height is natural and readable */
+    color: white;
+}
+.categoriesText{
+    text-align: justify; /* Justify text horizontally */
+    line-height: 1.6; /* Make sure line height is natural and readable */
+    color: white;
+}
+.categoriesLinks{
+    text-align: justify; /* Justify text horizontally */
+    line-height: 1.6; /* Make sure line height is natural and readable */
+    color: white;
+
+}
+
+body {
+    display: block; /* Standard block layout */
+    line-height: 1.6; /* Natural line height for readability */
+    text-align: justify; /* Justifies text horizontally */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+}
+
+
+main {
+    flex: 1;
+}
+
+.container {
+    min-height: 100%;
+    color: white;
+}
+
+.header{
+    color: aquamarine;
+}
+
