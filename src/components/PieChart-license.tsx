@@ -62,7 +62,7 @@ const LicensePieChart: React.FC = () => {
     const COLORS = ["#2d8bba", "#2f5f98", "#31356e", "#82a093"];
 
     return (
-        <div style={{ width: "50%", height: 400, margin: "0 auto" }}>
+        <div style={{ width: "60%", height: 400, margin: "0 auto" }}>
             <ResponsiveContainer>
                 <PieChart>
                     <Pie

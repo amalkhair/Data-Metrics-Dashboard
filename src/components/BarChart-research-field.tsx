@@ -41,6 +41,7 @@ const ResearchFieldBarChart: React.FC = () => {
                 works_count: item.works_count,
                 cited_by_count: item.cited_by_count
             }));
+
             console.log('transformedData:-------', transformedData);
 
             setData(transformedData);
@@ -62,22 +63,22 @@ const ResearchFieldBarChart: React.FC = () => {
     const COLORS = ["#2d8bba", "#2f5f98", "#31356e", "#82a093"];
 
     return (
-        <div style={{ width: "80%", height: 400, margin: "0 auto" }}>
+        <div style={{ width: "80%", height: 500, margin: "0 auto" }}>
             <ResponsiveContainer>
-                <BarChart data={data}>
+                <BarChart data={data} layout="vertical">
                     <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="display_name" />
-                    <YAxis />
+                    <XAxis type="number" />
+                    <YAxis type="category" dataKey="display_name" />
                     <Tooltip />
                     <Legend />
                     <Bar dataKey="works_count" fill="#8884d8">
                         {data.map((_, index) => (
-                            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                            <Cell key={`cell-wc-${index}`} fill={COLORS[index % COLORS.length]} />
                         ))}
                     </Bar>
                     <Bar dataKey="cited_by_count" fill="#82ca9d">
                         {data.map((_, index) => (
-                            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                            <Cell key={`cell-cbc-${index}`} fill={COLORS[index % COLORS.length]} />
                         ))}
                     </Bar>
                 </BarChart>

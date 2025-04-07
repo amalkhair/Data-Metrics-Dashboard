@@ -8,29 +8,93 @@ html, body {
     background: radial-gradient(circle at 0% 0%, #031679, #58aebd) !important;
     background-repeat: no-repeat;
 }
+
+
 .hometext {
-    text-align: justify; /* Justify text horizontally */
-    line-height: 1.6; /* Make sure line height is natural and readable */
+    text-align: justify;
+    line-height: 1.6;
     color: white;
 }
 .categoriesText{
-    text-align: justify; /* Justify text horizontally */
-    line-height: 1.6; /* Make sure line height is natural and readable */
+    text-align: justify;
+    line-height: 1.6;
     color: white;
 }
 .categoriesLinks{
-    text-align: justify; /* Justify text horizontally */
-    line-height: 1.6; /* Make sure line height is natural and readable */
+    text-align: justify;
+    line-height: 1.6;
     color: white;
 
 }
+.languageIntroText{
+    text-align: justify;
+    line-height: 1.6;
+    color: white;
+}
+.ChartsInsightsText{
+    text-align: justify;
+    line-height: 1.6;
+    color: white;
+}
+
+.LicenseIntroText{
+    text-align: justify;
+    line-height: 1.6;
+    color: white;
+}
+
+.ChartsInsightsTextLc{
+    text-align: justify;
+    line-height: 1.6;
+    color: white;
+}
+
+.licenseExplanation{
+    text-align: justify;
+    line-height: 1.6;
+    color: white;
+}
+
+.ChartsExplanationLicense{
+    text-align: justify;
+    line-height: 1.6;
+    color: white;
+}
+
+.languageListExplanationText{
+    text-align: justify;
+    line-height: 1.6;
+    color: white;
+}
+
+.ResearchFieldIntroText{
+    text-align: justify;
+    line-height: 1.6;
+    color: white;
+}
+.researchTypeText{
+    text-align: justify;
+    line-height: 1.6;
+    color: white;
+}
+.overTimeExplanation{
+    text-align: justify;
+    line-height: 1.6;
+    color: white;
+}
+.aboutText{
+    text-align: justify;
+    line-height: 1.6;
+    color: white;
+}
+
 
 body {
-    display: block; /* Standard block layout */
-    line-height: 1.6; /* Natural line height for readability */
-    text-align: justify; /* Justifies text horizontally */
-    margin: 0; /* Remove any default margin */
-    padding: 0; /* Remove any default padding */
+    display: block;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -44,6 +108,9 @@ main {
 }
 
 .header{
-    color: aquamarine;
+    color: #031679;
 }
+
+
+
 
