@@ -16,7 +16,7 @@ const ResearchFieldBarChart: React.FC = () => {
     // Fetch data from the backend
     const fetchingPopulationData = async () => {
         try {
-            const response = await fetch("http://localhost:8000/publication/bygroup/research-field", {
+            const response = await fetch("http://localhost:1945/publication/bygroup/research-field", {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json",

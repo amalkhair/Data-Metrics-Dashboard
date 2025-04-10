@@ -25,7 +25,7 @@ const ResearchTypeData: React.FC = () => {
     // Fetching data from API
     const fetchingData = async () => {
         try {
-            const response = await fetch("http://localhost:8000/publication/bygroup/byType");
+            const response = await fetch("http://localhost:1945/publication/bygroup/byType");
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             const apiData = await response.json();
 

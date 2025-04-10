@@ -15,7 +15,7 @@ const YearLineChart: React.FC = () => {
     // Fetch data from the backend
     const fetchYearData = async () => {
         try {
-            const response = await fetch("http://127.0.0.1:8000/publication/by_year", {
+            const response = await fetch("http://127.0.0.1:1945/publication/by_year", {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json",
